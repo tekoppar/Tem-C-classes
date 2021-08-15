@@ -52,7 +52,8 @@ namespace Tem.TemUI
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(3, 3);
+            this.label1.Location = new System.Drawing.Point(0, 3);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(17, 13);
             this.label1.TabIndex = 0;
@@ -66,7 +67,7 @@ namespace Tem.TemUI
             0,
             0,
             65536});
-            this.valueX.Location = new System.Drawing.Point(23, 0);
+            this.valueX.Location = new System.Drawing.Point(17, 0);
             this.valueX.Margin = new System.Windows.Forms.Padding(0);
             this.valueX.Maximum = new decimal(new int[] {
             -1,
@@ -91,7 +92,7 @@ namespace Tem.TemUI
             0,
             0,
             65536});
-            this.valueY.Location = new System.Drawing.Point(146, 0);
+            this.valueY.Location = new System.Drawing.Point(140, 0);
             this.valueY.Margin = new System.Windows.Forms.Padding(0);
             this.valueY.Maximum = new decimal(new int[] {
             -1,
@@ -112,7 +113,7 @@ namespace Tem.TemUI
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(126, 3);
+            this.label2.Location = new System.Drawing.Point(120, 3);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(17, 13);
             this.label2.TabIndex = 2;
@@ -126,7 +127,7 @@ namespace Tem.TemUI
             0,
             0,
             65536});
-            this.valueZ.Location = new System.Drawing.Point(269, 0);
+            this.valueZ.Location = new System.Drawing.Point(263, 0);
             this.valueZ.Margin = new System.Windows.Forms.Padding(0);
             this.valueZ.Maximum = new decimal(new int[] {
             -1,
@@ -147,7 +148,7 @@ namespace Tem.TemUI
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(249, 3);
+            this.label3.Location = new System.Drawing.Point(243, 3);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(17, 13);
             this.label3.TabIndex = 4;
@@ -161,7 +162,7 @@ namespace Tem.TemUI
             0,
             0,
             65536});
-            this.valueA.Location = new System.Drawing.Point(392, 0);
+            this.valueA.Location = new System.Drawing.Point(386, 0);
             this.valueA.Margin = new System.Windows.Forms.Padding(0);
             this.valueA.Maximum = new decimal(new int[] {
             -1,
@@ -182,7 +183,7 @@ namespace Tem.TemUI
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(372, 3);
+            this.label4.Location = new System.Drawing.Point(366, 3);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(17, 13);
             this.label4.TabIndex = 6;
@@ -203,7 +204,7 @@ namespace Tem.TemUI
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(492, 20);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(486, 20);
             this.flowLayoutPanel1.TabIndex = 8;
             // 
             // Vector4Control
@@ -215,7 +216,7 @@ namespace Tem.TemUI
             this.Controls.Add(this.flowLayoutPanel1);
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "Vector4Control";
-            this.Size = new System.Drawing.Size(492, 20);
+            this.Size = new System.Drawing.Size(486, 20);
             ((System.ComponentModel.ISupportInitialize)(this.valueX)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.valueY)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.valueZ)).EndInit();

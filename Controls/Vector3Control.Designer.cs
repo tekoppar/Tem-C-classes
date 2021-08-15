@@ -40,8 +40,10 @@ namespace Tem.TemUI
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(3, 0);
+            this.label1.Location = new System.Drawing.Point(0, 3);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.MinimumSize = new System.Drawing.Size(14, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(17, 14);
@@ -56,7 +58,7 @@ namespace Tem.TemUI
             0,
             0,
             65536});
-            this.valueX.Location = new System.Drawing.Point(23, 0);
+            this.valueX.Location = new System.Drawing.Point(17, 0);
             this.valueX.Margin = new System.Windows.Forms.Padding(0);
             this.valueX.Maximum = new decimal(new int[] {
             -1,
@@ -82,7 +84,7 @@ namespace Tem.TemUI
             0,
             0,
             65536});
-            this.valueY.Location = new System.Drawing.Point(146, 0);
+            this.valueY.Location = new System.Drawing.Point(140, 0);
             this.valueY.Margin = new System.Windows.Forms.Padding(0);
             this.valueY.Maximum = new decimal(new int[] {
             -1,
@@ -102,8 +104,9 @@ namespace Tem.TemUI
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(126, 0);
+            this.label2.Location = new System.Drawing.Point(120, 3);
             this.label2.MinimumSize = new System.Drawing.Size(14, 14);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(17, 14);
@@ -118,7 +121,7 @@ namespace Tem.TemUI
             0,
             0,
             65536});
-            this.valueZ.Location = new System.Drawing.Point(269, 0);
+            this.valueZ.Location = new System.Drawing.Point(263, 0);
             this.valueZ.Margin = new System.Windows.Forms.Padding(0);
             this.valueZ.Maximum = new decimal(new int[] {
             -1,
@@ -138,8 +141,9 @@ namespace Tem.TemUI
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(249, 0);
+            this.label3.Location = new System.Drawing.Point(243, 3);
             this.label3.MinimumSize = new System.Drawing.Size(14, 14);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(17, 14);
@@ -159,7 +163,7 @@ namespace Tem.TemUI
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(369, 20);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(363, 20);
             this.flowLayoutPanel1.TabIndex = 8;
             // 
             // Vector3Control
@@ -171,7 +175,7 @@ namespace Tem.TemUI
             this.Controls.Add(this.flowLayoutPanel1);
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "Vector3Control";
-            this.Size = new System.Drawing.Size(369, 20);
+            this.Size = new System.Drawing.Size(363, 20);
             ((System.ComponentModel.ISupportInitialize)(this.valueX)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.valueY)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.valueZ)).EndInit();

@@ -27,16 +27,17 @@ namespace Tem.TemUI
         private void InitializeComponent() {
             this.label1 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.vector3Center = new TemUI.Vector3Control();
+            this.vector3Center = new Tem.TemUI.Vector3Control();
             this.label2 = new System.Windows.Forms.Label();
-            this.vector3Extents = new TemUI.Vector3Control();
+            this.vector3Extents = new Tem.TemUI.Vector3Control();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(3, 0);
+            this.label1.Location = new System.Drawing.Point(3, 3);
             this.label1.MinimumSize = new System.Drawing.Size(45, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(45, 14);
@@ -68,13 +69,13 @@ namespace Tem.TemUI
             this.vector3Center.Name = "vector3Center";
             this.vector3Center.Size = new System.Drawing.Size(369, 20);
             this.vector3Center.TabIndex = 1;
-            this.vector3Center.OnValueChanged += new System.EventHandler<TemUI.ValuechangedVec3EventArgs>(this.vector3Control_OnValueChanged);
+            this.vector3Center.OnValueChanged += new System.EventHandler<Tem.TemUI.ValuechangedVec3EventArgs>(this.vector3Control_OnValueChanged);
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(3, 20);
+            this.label2.Location = new System.Drawing.Point(3, 23);
             this.label2.MinimumSize = new System.Drawing.Size(45, 14);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(45, 14);
@@ -91,7 +92,7 @@ namespace Tem.TemUI
             this.vector3Extents.Name = "vector3Extents";
             this.vector3Extents.Size = new System.Drawing.Size(369, 20);
             this.vector3Extents.TabIndex = 2;
-            this.vector3Extents.OnValueChanged += new System.EventHandler<TemUI.ValuechangedVec3EventArgs>(this.vector3Control_OnValueChanged);
+            this.vector3Extents.OnValueChanged += new System.EventHandler<Tem.TemUI.ValuechangedVec3EventArgs>(this.vector3Control_OnValueChanged);
             // 
             // BoundsControl
             // 

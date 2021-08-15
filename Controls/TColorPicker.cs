@@ -35,8 +35,11 @@ namespace Tem.TemUI
             }
             set {
                 this.ColorPickerSize = value;
-                this.colorPicker.Width = this.ColorPickerSize.X;
-                this.colorPicker.Height = this.ColorPickerSize.Y;
+                if (this.colorPicker != null)
+                {
+                    this.colorPicker.Width = this.ColorPickerSize.X;
+                    this.colorPicker.Height = this.ColorPickerSize.Y;
+                }
             }
         }
 

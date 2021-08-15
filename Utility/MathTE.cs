@@ -32,8 +32,6 @@ namespace Tem.Utility
 
     public static class TE
     {
-        public static bool IsDisposingNow = false;
-
         private static Dictionary<string, int> ParentIndexes = new Dictionary<string, int>();
         public struct ObjectValue
         {

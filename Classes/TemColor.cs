@@ -30,7 +30,9 @@ namespace Tem.TemClass
 
         public HSV()
         {
-            this.h = this.s = this.b = 1.0f;
+            this.h = 0.0f;
+            this.s = 0.0f;
+            this.b = 0.0f;
         }
 
         static float getBrightness(Color c) { return (c.R * 0.299f + c.G * 0.587f + c.B * 0.114f) / 256f; }
@@ -58,6 +60,7 @@ namespace Tem.TemClass
             int q = Convert.ToInt32(hsv.b * (1 - f * hsv.s));
             int t = Convert.ToInt32(hsv.b * (1 - (1 - f) * hsv.s));
 
+            hsv.b = hsv.b / 255;
             if (hi == 0)
                 return Color.FromArgb(255, v, t, p);
             else if (hi == 1)
